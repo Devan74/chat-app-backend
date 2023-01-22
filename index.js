@@ -28,7 +28,7 @@ db();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://classy-treacle-332e43.netlify.app',
     credentials: true
 }));
 
